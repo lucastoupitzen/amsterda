@@ -1,2 +1,59 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'bizantine';
+    src: url('fontes/Super\ byzantine.ttf') format('truetype')
+}
+:root {
+    --cor1: #f2f2f2;
+    --cor2: #d9644a;
+    --cor3: #d9a282;
+    --cor4: #401d16;
+    --cor5: #736e65;
+    --cor6: #4d1c18;
+    --cor7: #300f10;
+
+    --fonte-titulo: 'bizantine', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor7));
+    color: var(--cor1);
+    text-align: center;
+}
+header > h1 {
+    font-size: 5em;
+    padding: 20px;
+
+}
+header > p {
+    font-size: 3em;
+    padding: 10px;
+}
+nav {
+    background-color: var(--cor7);
+    padding: 20px 0px;
+}
+nav > a {
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+picture#bandeira {
+    position: absolute;
+    top: 3%;
+    left: 84%;
+}
