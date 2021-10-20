@@ -90,6 +90,7 @@ main {
     max-width: 1000px;
     text-align: justify;
     padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.467);
 }
 main h1 {
     font-family: var(--fonte-titulo);
