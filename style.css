@@ -85,6 +85,7 @@ img#medieval {
 }
 main {
     margin: auto;
+    margin-bottom: 20px;
     background-color: var(--cor1);
     min-width: 300px;
     max-width: 1000px;
@@ -111,4 +112,11 @@ main h2 {
     margin-bottom: 10px;
     padding: 10px;
     text-decoration: underline;
+}
+footer {
+    background-color: var(--cor7);
+    color: var(--cor1);
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-texto);
 }
