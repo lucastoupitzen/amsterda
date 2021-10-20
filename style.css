@@ -38,12 +38,12 @@ header {
     text-align: center;
 }
 header > h1 {
-    font-size: 4em;
+    font-size: 3em;
     padding: 20px;
 
 }
 header > p {
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 10px;
 }
 nav {
@@ -102,13 +102,13 @@ main h1 {
 }
 main p {
     font-family: var(--fonte-texto);
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-indent: 30px;
     line-height: 2em;
 }
 main h2 {
     font-family: var(--fonte-h2);
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 10px;
     padding: 10px;
     text-decoration: underline;
